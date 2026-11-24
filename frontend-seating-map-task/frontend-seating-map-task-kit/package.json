@@ -1,0 +1,12 @@
+{
+  "name": "frontend-seating-map-task-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:venues": "node scripts/generate-venues.mjs",
+    "validate:json": "node scripts/validate-venues.mjs",
+    "validate:venues": "node scripts/validate-venues.mjs"
+  },
+  "devDependencies": {}
+}
